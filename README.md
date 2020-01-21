@@ -1,8 +1,8 @@
 # Lambda-SQL Query-Slack 
 
-This project is an AWS Lambda project, which has a PYODBC Lambda layer. The PYODBC layer provides a way for lambda to
-interact with your local SQL servers. The final piece of the project which may still require a bit of customization is 
-the slack component which you'll have to tailor the output of the message to your liking/use case. 
+This project is an AWS Lambda Function, which has a PYODBC Lambda layer. The PYODBC layer provides a way for lambda to
+interact with your AWS hosted SQL servers. The final piece of the project may still require a bit of customization is 
+the slack component. You'll need to tailor the output of the message to your liking/use case. 
 
 # Layout
 ```
